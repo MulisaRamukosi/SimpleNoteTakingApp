@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.puzzle.industries.simplenotetakingapp.presentation.navigation.MainNavigation
-import com.puzzle.industries.simplenotetakingapp.presentation.theme.SimpleNoteTakingAppTheme
+import com.puzzle.industries.simplenotetakingapp.navigation.MainNavigation
+import com.puzzle.industries.simplenotetakingapp.theme.SimpleNoteTakingAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
