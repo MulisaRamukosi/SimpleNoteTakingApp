@@ -4,7 +4,7 @@ import com.puzzle.industries.data.database.entity.NoteEntity
 import com.puzzle.industries.domain.models.NoteDto
 
 
-class NoteMapper{
+internal class NoteMapper{
 
     fun toNoteEntity(noteDto: NoteDto) : NoteEntity{
         return NoteEntity(

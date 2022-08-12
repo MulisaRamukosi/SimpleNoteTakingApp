@@ -8,7 +8,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
 import javax.inject.Inject
 
-class NoteRepository @Inject constructor(
+internal class NoteRepository @Inject constructor(
     private val noteDao: NoteDao,
     private val noteMapper: NoteMapper
 ) : INoteRepository {

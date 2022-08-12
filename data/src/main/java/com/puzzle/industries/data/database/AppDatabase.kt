@@ -17,7 +17,7 @@ import com.puzzle.industries.data.database.typeConverters.DateConverter
 @TypeConverters(
     DateConverter::class
 )
-abstract class AppDatabase : RoomDatabase() {
+internal abstract class AppDatabase : RoomDatabase() {
     abstract fun noteDao(): NoteDao
 
     companion object {

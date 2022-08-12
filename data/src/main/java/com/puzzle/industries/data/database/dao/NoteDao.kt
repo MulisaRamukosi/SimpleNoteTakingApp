@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.Flow
 
 
 @Dao
-interface NoteDao {
+internal interface NoteDao {
 
     @Query("select * from note")
     fun getAllNotes() : Flow<List<NoteEntity>>
