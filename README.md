@@ -1,5 +1,5 @@
 # SimpleNoteTakingApp
-Note taking app implemented using jetpack compose
+Note taking app implemented using jetpack compose.
 The project follows android clean architecture and implements the MVVM pattern
 
 ## Features
